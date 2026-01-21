@@ -1,0 +1,16 @@
+[
+{
+  "modid": "foxtrot",
+  "name": "Foxtrot PIT",
+  "description": "Hypixel PIT MOD QOL by - Vixy",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Linex Studios"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

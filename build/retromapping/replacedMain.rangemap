@@ -1,0 +1,491 @@
+Symbol range map extraction starting
+Processing 4 files
+processing com\linexstudios\foxtrot\CommandFoxtrot.java
+@|com\linexstudios\foxtrot\CommandFoxtrot.java|8|32|com.linexstudios.foxtrot|package|com.linexstudios.foxtrot|(file)
+Class Start: com.linexstudios.foxtrot.CommandFoxtrot
+   Method Start: getCommandName()Ljava/lang/String;
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|442|456|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|435|441|String|class|java.lang.String
+   Method End: getCommandName()Ljava/lang/String;
+   Method Start: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|514|529|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|507|513|String|class|java.lang.String
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|530|544|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|545|551|sender|param|com.linexstudios.foxtrot.CommandFoxtrot|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|sender|0
+   Method End: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: getRequiredPermissionLevel()I
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|658|684|getRequiredPermissionLevel|method|net.minecraft.command.CommandBase|getRequiredPermissionLevel|()I
+   Method End: getRequiredPermissionLevel()I
+   Method Start: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|732|746|processCommand|method|net.minecraft.command.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|792|808|CommandException|class|net.minecraft.command.CommandException
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|747|761|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|762|768|sender|param|com.linexstudios.foxtrot.CommandFoxtrot|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|770|776|String|class|java.lang.String
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|779|783|args|param|com.linexstudios.foxtrot.CommandFoxtrot|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|823|827|args|param|com.linexstudios.foxtrot.CommandFoxtrot|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      Field: Array Length, skipping
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|855|861|sender|param|com.linexstudios.foxtrot.CommandFoxtrot|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|862|876|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|881|898|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|899|917|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|918|930|LIGHT_PURPLE|field|net.minecraft.util.EnumChatFormatting|LIGHT_PURPLE
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|931|939|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|944|962|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|963|967|BOLD|field|net.minecraft.util.EnumChatFormatting|BOLD
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|968|976|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1018|1024|sender|param|com.linexstudios.foxtrot.CommandFoxtrot|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1025|1039|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1044|1061|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1062|1080|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1081|1087|YELLOW|field|net.minecraft.util.EnumChatFormatting|YELLOW
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1115|1133|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1134|1138|GRAY|field|net.minecraft.util.EnumChatFormatting|GRAY
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1170|1176|sender|param|com.linexstudios.foxtrot.CommandFoxtrot|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1177|1191|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1196|1213|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1214|1232|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1233|1239|YELLOW|field|net.minecraft.util.EnumChatFormatting|YELLOW
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1270|1288|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1289|1293|GRAY|field|net.minecraft.util.EnumChatFormatting|GRAY
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1328|1334|sender|param|com.linexstudios.foxtrot.CommandFoxtrot|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1335|1349|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1354|1371|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1372|1390|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1391|1397|YELLOW|field|net.minecraft.util.EnumChatFormatting|YELLOW
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1419|1437|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1438|1442|GRAY|field|net.minecraft.util.EnumChatFormatting|GRAY
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1485|1491|sender|param|com.linexstudios.foxtrot.CommandFoxtrot|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1492|1506|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1511|1528|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1529|1547|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1548|1554|YELLOW|field|net.minecraft.util.EnumChatFormatting|YELLOW
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1578|1596|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1597|1601|GRAY|field|net.minecraft.util.EnumChatFormatting|GRAY
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1642|1648|sender|param|com.linexstudios.foxtrot.CommandFoxtrot|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1649|1663|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1668|1685|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1686|1704|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1705|1711|YELLOW|field|net.minecraft.util.EnumChatFormatting|YELLOW
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1735|1753|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1754|1758|GRAY|field|net.minecraft.util.EnumChatFormatting|GRAY
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1798|1804|sender|param|com.linexstudios.foxtrot.CommandFoxtrot|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1805|1819|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1824|1841|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1842|1860|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1861|1867|YELLOW|field|net.minecraft.util.EnumChatFormatting|YELLOW
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1890|1908|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1909|1913|GRAY|field|net.minecraft.util.EnumChatFormatting|GRAY
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1978|1984|String|class|java.lang.String
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|1994|1998|args|param|com.linexstudios.foxtrot.CommandFoxtrot|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2002|2013|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2088|2092|args|param|com.linexstudios.foxtrot.CommandFoxtrot|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      Field: Array Length, skipping
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2129|2135|String|class|java.lang.String
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2148|2152|args|param|com.linexstudios.foxtrot.CommandFoxtrot|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2178|2186|EnemyHUD|class|com.linexstudios.foxtrot.EnemyHUD
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2187|2197|targetList|field|com.linexstudios.foxtrot.EnemyHUD|targetList
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2198|2206|contains|method|java.util.Collection|contains|(Ljava/lang/Object;)Z
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2241|2249|EnemyHUD|class|com.linexstudios.foxtrot.EnemyHUD
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2250|2260|targetList|field|com.linexstudios.foxtrot.EnemyHUD|targetList
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2261|2264|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2297|2310|ConfigHandler|class|com.linexstudios.foxtrot.ConfigHandler
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2311|2321|saveConfig|method|com.linexstudios.foxtrot.ConfigHandler|saveConfig|()V
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2345|2356|sendMessage|method|com.linexstudios.foxtrot.CommandFoxtrot|sendMessage|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2357|2363|sender|param|com.linexstudios.foxtrot.CommandFoxtrot|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2365|2383|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2384|2389|GREEN|field|net.minecraft.util.EnumChatFormatting|GREEN
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2403|2411|EnemyHUD|class|com.linexstudios.foxtrot.EnemyHUD
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2412|2428|getFormattedName|method|com.linexstudios.foxtrot.EnemyHUD|getFormattedName|(Ljava/lang/String;)Ljava/lang/String;
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2442|2460|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2461|2466|GREEN|field|net.minecraft.util.EnumChatFormatting|GREEN
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2577|2581|args|param|com.linexstudios.foxtrot.CommandFoxtrot|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      Field: Array Length, skipping
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2618|2624|String|class|java.lang.String
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2640|2644|args|param|com.linexstudios.foxtrot.CommandFoxtrot|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2669|2677|EnemyHUD|class|com.linexstudios.foxtrot.EnemyHUD
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2678|2688|targetList|field|com.linexstudios.foxtrot.EnemyHUD|targetList
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2689|2697|removeIf|method|java.util.Collection|removeIf|(Ljava/util/function/Predicate;)Z
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2760|2773|ConfigHandler|class|com.linexstudios.foxtrot.ConfigHandler
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2774|2784|saveConfig|method|com.linexstudios.foxtrot.ConfigHandler|saveConfig|()V
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2808|2819|sendMessage|method|com.linexstudios.foxtrot.CommandFoxtrot|sendMessage|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2820|2826|sender|param|com.linexstudios.foxtrot.CommandFoxtrot|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2828|2846|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2847|2850|RED|field|net.minecraft.util.EnumChatFormatting|RED
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2866|2874|EnemyHUD|class|com.linexstudios.foxtrot.EnemyHUD
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2875|2891|getFormattedName|method|com.linexstudios.foxtrot.EnemyHUD|getFormattedName|(Ljava/lang/String;)Ljava/lang/String;
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2908|2926|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|2927|2930|RED|field|net.minecraft.util.EnumChatFormatting|RED
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3041|3049|EnemyHUD|class|com.linexstudios.foxtrot.EnemyHUD
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3050|3060|targetList|field|com.linexstudios.foxtrot.EnemyHUD|targetList
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3061|3068|isEmpty|method|java.util.Collection|isEmpty|()Z
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3094|3105|sendMessage|method|com.linexstudios.foxtrot.CommandFoxtrot|sendMessage|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3106|3112|sender|param|com.linexstudios.foxtrot.CommandFoxtrot|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3114|3132|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3133|3136|RED|field|net.minecraft.util.EnumChatFormatting|RED
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3208|3214|sender|param|com.linexstudios.foxtrot.CommandFoxtrot|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3215|3229|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3234|3251|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3252|3270|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3271|3275|AQUA|field|net.minecraft.util.EnumChatFormatting|AQUA
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3299|3307|EnemyHUD|class|com.linexstudios.foxtrot.EnemyHUD
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3308|3318|targetList|field|com.linexstudios.foxtrot.EnemyHUD|targetList
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3319|3323|size|method|java.util.Collection|size|()I
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3364|3370|String|class|java.lang.String
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3378|3386|EnemyHUD|class|com.linexstudios.foxtrot.EnemyHUD
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3387|3397|targetList|field|com.linexstudios.foxtrot.EnemyHUD|targetList
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3425|3431|sender|param|com.linexstudios.foxtrot.CommandFoxtrot|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3432|3446|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3451|3468|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3469|3487|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3488|3492|GRAY|field|net.minecraft.util.EnumChatFormatting|GRAY
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3502|3510|EnemyHUD|class|com.linexstudios.foxtrot.EnemyHUD
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3511|3527|getFormattedName|method|com.linexstudios.foxtrot.EnemyHUD|getFormattedName|(Ljava/lang/String;)Ljava/lang/String;
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3644|3652|EnemyHUD|class|com.linexstudios.foxtrot.EnemyHUD
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3653|3673|notificationsEnabled|field|com.linexstudios.foxtrot.EnemyHUD|notificationsEnabled
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3677|3685|EnemyHUD|class|com.linexstudios.foxtrot.EnemyHUD
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3686|3706|notificationsEnabled|field|com.linexstudios.foxtrot.EnemyHUD|notificationsEnabled
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3724|3737|ConfigHandler|class|com.linexstudios.foxtrot.ConfigHandler
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3738|3748|saveConfig|method|com.linexstudios.foxtrot.ConfigHandler|saveConfig|()V
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3768|3779|sendMessage|method|com.linexstudios.foxtrot.CommandFoxtrot|sendMessage|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3780|3786|sender|param|com.linexstudios.foxtrot.CommandFoxtrot|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3788|3806|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3807|3813|YELLOW|field|net.minecraft.util.EnumChatFormatting|YELLOW
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3830|3838|EnemyHUD|class|com.linexstudios.foxtrot.EnemyHUD
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3839|3859|notificationsEnabled|field|com.linexstudios.foxtrot.EnemyHUD|notificationsEnabled
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3945|3953|EnemyHUD|class|com.linexstudios.foxtrot.EnemyHUD
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3954|3961|enabled|field|com.linexstudios.foxtrot.EnemyHUD|enabled
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3965|3973|EnemyHUD|class|com.linexstudios.foxtrot.EnemyHUD
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3974|3981|enabled|field|com.linexstudios.foxtrot.EnemyHUD|enabled
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|3999|4012|ConfigHandler|class|com.linexstudios.foxtrot.ConfigHandler
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4013|4023|saveConfig|method|com.linexstudios.foxtrot.ConfigHandler|saveConfig|()V
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4043|4054|sendMessage|method|com.linexstudios.foxtrot.CommandFoxtrot|sendMessage|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4055|4061|sender|param|com.linexstudios.foxtrot.CommandFoxtrot|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4063|4081|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4082|4088|YELLOW|field|net.minecraft.util.EnumChatFormatting|YELLOW
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4102|4110|EnemyHUD|class|com.linexstudios.foxtrot.EnemyHUD
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4111|4118|enabled|field|com.linexstudios.foxtrot.EnemyHUD|enabled
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4203|4211|EnemyHUD|class|com.linexstudios.foxtrot.EnemyHUD
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4212|4222|targetList|field|com.linexstudios.foxtrot.EnemyHUD|targetList
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4223|4228|clear|method|java.util.Collection|clear|()V
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4248|4261|ConfigHandler|class|com.linexstudios.foxtrot.ConfigHandler
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4262|4272|saveConfig|method|com.linexstudios.foxtrot.ConfigHandler|saveConfig|()V
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4292|4303|sendMessage|method|com.linexstudios.foxtrot.CommandFoxtrot|sendMessage|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4304|4310|sender|param|com.linexstudios.foxtrot.CommandFoxtrot|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4312|4330|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4331|4334|RED|field|net.minecraft.util.EnumChatFormatting|RED
+   Method End: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+   Method Start: addTabCompletionOptions(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4433|4456|addTabCompletionOptions|method|net.minecraft.command.ICommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4425|4431|String|class|java.lang.String
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4420|4424|List|class|java.util.List
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4457|4471|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4472|4478|sender|param|com.linexstudios.foxtrot.CommandFoxtrot|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|sender|0
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4480|4486|String|class|java.lang.String
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4489|4493|args|param|com.linexstudios.foxtrot.CommandFoxtrot|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4495|4503|BlockPos|class|net.minecraft.util.BlockPos
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4504|4507|pos|param|com.linexstudios.foxtrot.CommandFoxtrot|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|pos|2
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4523|4527|args|param|com.linexstudios.foxtrot.CommandFoxtrot|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      Field: Array Length, skipping
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4562|4594|getListOfStringsMatchingLastWord|method|net.minecraft.command.CommandBase|getListOfStringsMatchingLastWord|([Ljava/lang/String;[Ljava/lang/String;)Ljava/util/List;
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4595|4599|args|param|com.linexstudios.foxtrot.CommandFoxtrot|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4678|4682|args|param|com.linexstudios.foxtrot.CommandFoxtrot|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      Field: Array Length, skipping
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4698|4702|args|param|com.linexstudios.foxtrot.CommandFoxtrot|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4706|4722|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4752|4784|getListOfStringsMatchingLastWord|method|net.minecraft.command.CommandBase|getListOfStringsMatchingLastWord|([Ljava/lang/String;[Ljava/lang/String;)Ljava/util/List;
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4785|4789|args|param|com.linexstudios.foxtrot.CommandFoxtrot|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4791|4800|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4801|4813|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4816|4829|getNetHandler|method|net.minecraft.client.Minecraft|getNetHandler|()Lnet/minecraft/client/network/NetHandlerPlayClient;
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4832|4848|getPlayerInfoMap|method|net.minecraft.client.network.NetHandlerPlayClient|getPlayerInfoMap|()Ljava/util/Collection;
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4851|4857|stream|method|java.util.Collection|stream|()Ljava/util/stream/Stream;
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4881|4884|map|method|java.util.stream.Stream|map|(Ljava/util/function/Function;)Ljava/util/stream/Stream;
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4926|4933|toArray|method|java.util.stream.Stream|toArray|(Ljava/util/function/IntFunction;)[Ljava/lang/Object;
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4973|4977|args|param|com.linexstudios.foxtrot.CommandFoxtrot|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      Field: Array Length, skipping
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|4993|4997|args|param|com.linexstudios.foxtrot.CommandFoxtrot|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|5001|5017|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|5050|5082|getListOfStringsMatchingLastWord|method|net.minecraft.command.CommandBase|getListOfStringsMatchingLastWord|([Ljava/lang/String;Ljava/util/Collection;)Ljava/util/List;
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|5083|5087|args|param|com.linexstudios.foxtrot.CommandFoxtrot|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|5089|5097|EnemyHUD|class|com.linexstudios.foxtrot.EnemyHUD
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|5098|5108|targetList|field|com.linexstudios.foxtrot.EnemyHUD|targetList
+   Method End: addTabCompletionOptions(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;
+   Method Start: sendMessage(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|5166|5177|sendMessage|method|com.linexstudios.foxtrot.CommandFoxtrot|sendMessage|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|5178|5192|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|5193|5199|sender|param|com.linexstudios.foxtrot.CommandFoxtrot|sendMessage|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V|sender|0
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|5201|5207|String|class|java.lang.String
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|5208|5211|msg|param|com.linexstudios.foxtrot.CommandFoxtrot|sendMessage|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V|msg|1
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|5223|5229|sender|param|com.linexstudios.foxtrot.CommandFoxtrot|sendMessage|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V|sender|0
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|5230|5244|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|5249|5266|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|5267|5285|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|5286|5295|DARK_GRAY|field|net.minecraft.util.EnumChatFormatting|DARK_GRAY
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|5304|5322|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|5323|5328|WHITE|field|net.minecraft.util.EnumChatFormatting|WHITE
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|5343|5361|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|5362|5371|DARK_GRAY|field|net.minecraft.util.EnumChatFormatting|DARK_GRAY
+      @|com\linexstudios\foxtrot\CommandFoxtrot.java|5381|5384|msg|param|com.linexstudios.foxtrot.CommandFoxtrot|sendMessage|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V|msg|1
+   Method End: sendMessage(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+Class End  : com.linexstudios.foxtrot.CommandFoxtrot
+endProcessing com\linexstudios\foxtrot\CommandFoxtrot.java
+
+processing com\linexstudios\foxtrot\ConfigHandler.java
+@|com\linexstudios\foxtrot\ConfigHandler.java|8|32|com.linexstudios.foxtrot|package|com.linexstudios.foxtrot|(file)
+Class Start: com.linexstudios.foxtrot.ConfigHandler
+   @|com\linexstudios\foxtrot\ConfigHandler.java|198|202|File|class|java.io.File
+   @|com\linexstudios\foxtrot\ConfigHandler.java|203|213|configFile|field|com.linexstudios.foxtrot.ConfigHandler|configFile|
+   @|com\linexstudios\foxtrot\ConfigHandler.java|220|224|File|class|java.io.File
+   @|com\linexstudios\foxtrot\ConfigHandler.java|225|234|Minecraft|class|net.minecraft.client.Minecraft
+   @|com\linexstudios\foxtrot\ConfigHandler.java|235|247|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+   @|com\linexstudios\foxtrot\ConfigHandler.java|250|259|mcDataDir|field|net.minecraft.client.Minecraft|mcDataDir
+   @|com\linexstudios\foxtrot\ConfigHandler.java|317|321|File|class|java.io.File
+   @|com\linexstudios\foxtrot\ConfigHandler.java|322|334|settingsFile|field|com.linexstudios.foxtrot.ConfigHandler|settingsFile|
+   @|com\linexstudios\foxtrot\ConfigHandler.java|341|345|File|class|java.io.File
+   @|com\linexstudios\foxtrot\ConfigHandler.java|346|355|Minecraft|class|net.minecraft.client.Minecraft
+   @|com\linexstudios\foxtrot\ConfigHandler.java|356|368|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+   @|com\linexstudios\foxtrot\ConfigHandler.java|371|380|mcDataDir|field|net.minecraft.client.Minecraft|mcDataDir
+   Method Start: loadConfig()V
+      @|com\linexstudios\foxtrot\ConfigHandler.java|438|448|loadConfig|method|com.linexstudios.foxtrot.ConfigHandler|loadConfig|()V
+      @|com\linexstudios\foxtrot\ConfigHandler.java|521|531|configFile|field|com.linexstudios.foxtrot.ConfigHandler|configFile
+      @|com\linexstudios\foxtrot\ConfigHandler.java|532|538|exists|method|java.io.File|exists|()Z
+      @|com\linexstudios\foxtrot\ConfigHandler.java|560|570|configFile|field|com.linexstudios.foxtrot.ConfigHandler|configFile
+      @|com\linexstudios\foxtrot\ConfigHandler.java|571|584|createNewFile|method|java.io.File|createNewFile|()Z
+      @|com\linexstudios\foxtrot\ConfigHandler.java|625|639|BufferedReader|class|java.io.BufferedReader
+      @|com\linexstudios\foxtrot\ConfigHandler.java|653|667|BufferedReader|class|java.io.BufferedReader
+      @|com\linexstudios\foxtrot\ConfigHandler.java|672|682|FileReader|class|java.io.FileReader
+      @|com\linexstudios\foxtrot\ConfigHandler.java|683|693|configFile|field|com.linexstudios.foxtrot.ConfigHandler|configFile
+      @|com\linexstudios\foxtrot\ConfigHandler.java|713|717|List|class|java.util.List
+      @|com\linexstudios\foxtrot\ConfigHandler.java|718|724|String|class|java.lang.String
+      @|com\linexstudios\foxtrot\ConfigHandler.java|744|753|ArrayList|class|java.util.ArrayList
+      @|com\linexstudios\foxtrot\ConfigHandler.java|754|760|String|class|java.lang.String
+      @|com\linexstudios\foxtrot\ConfigHandler.java|781|787|String|class|java.lang.String
+      @|com\linexstudios\foxtrot\ConfigHandler.java|832|840|readLine|method|java.io.BufferedReader|readLine|()Ljava/lang/String;
+      @|com\linexstudios\foxtrot\ConfigHandler.java|885|889|trim|method|java.lang.String|trim|()Ljava/lang/String;
+      @|com\linexstudios\foxtrot\ConfigHandler.java|892|899|isEmpty|method|java.lang.String|isEmpty|()Z
+      @|com\linexstudios\foxtrot\ConfigHandler.java|941|944|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com\linexstudios\foxtrot\ConfigHandler.java|950|954|trim|method|java.lang.String|trim|()Ljava/lang/String;
+      @|com\linexstudios\foxtrot\ConfigHandler.java|1015|1023|EnemyHUD|class|com.linexstudios.foxtrot.EnemyHUD
+      @|com\linexstudios\foxtrot\ConfigHandler.java|1024|1034|targetList|field|com.linexstudios.foxtrot.EnemyHUD|targetList
+      @|com\linexstudios\foxtrot\ConfigHandler.java|1073|1078|close|method|java.lang.AutoCloseable|close|()V
+      @|com\linexstudios\foxtrot\ConfigHandler.java|1152|1164|settingsFile|field|com.linexstudios.foxtrot.ConfigHandler|settingsFile
+      @|com\linexstudios\foxtrot\ConfigHandler.java|1165|1171|exists|method|java.io.File|exists|()Z
+      @|com\linexstudios\foxtrot\ConfigHandler.java|1193|1207|BufferedReader|class|java.io.BufferedReader
+      @|com\linexstudios\foxtrot\ConfigHandler.java|1229|1243|BufferedReader|class|java.io.BufferedReader
+      @|com\linexstudios\foxtrot\ConfigHandler.java|1248|1258|FileReader|class|java.io.FileReader
+      @|com\linexstudios\foxtrot\ConfigHandler.java|1259|1271|settingsFile|field|com.linexstudios.foxtrot.ConfigHandler|settingsFile
+      @|com\linexstudios\foxtrot\ConfigHandler.java|1356|1362|String|class|java.lang.String
+      @|com\linexstudios\foxtrot\ConfigHandler.java|1391|1399|readLine|method|java.io.BufferedReader|readLine|()Ljava/lang/String;
+      @|com\linexstudios\foxtrot\ConfigHandler.java|1465|1473|EnemyHUD|class|com.linexstudios.foxtrot.EnemyHUD
+      @|com\linexstudios\foxtrot\ConfigHandler.java|1474|1494|notificationsEnabled|field|com.linexstudios.foxtrot.EnemyHUD|notificationsEnabled
+      @|com\linexstudios\foxtrot\ConfigHandler.java|1497|1504|Boolean|class|java.lang.Boolean
+      @|com\linexstudios\foxtrot\ConfigHandler.java|1505|1517|parseBoolean|method|java.lang.Boolean|parseBoolean|(Ljava/lang/String;)Z
+      @|com\linexstudios\foxtrot\ConfigHandler.java|1620|1626|String|class|java.lang.String
+      @|com\linexstudios\foxtrot\ConfigHandler.java|1652|1660|readLine|method|java.io.BufferedReader|readLine|()Ljava/lang/String;
+      @|com\linexstudios\foxtrot\ConfigHandler.java|1723|1731|EnemyHUD|class|com.linexstudios.foxtrot.EnemyHUD
+      @|com\linexstudios\foxtrot\ConfigHandler.java|1732|1739|enabled|field|com.linexstudios.foxtrot.EnemyHUD|enabled
+      @|com\linexstudios\foxtrot\ConfigHandler.java|1742|1749|Boolean|class|java.lang.Boolean
+      @|com\linexstudios\foxtrot\ConfigHandler.java|1750|1762|parseBoolean|method|java.lang.Boolean|parseBoolean|(Ljava/lang/String;)Z
+      @|com\linexstudios\foxtrot\ConfigHandler.java|1839|1844|close|method|java.lang.AutoCloseable|close|()V
+      @|com\linexstudios\foxtrot\ConfigHandler.java|1879|1888|Exception|class|java.lang.Exception
+      @|com\linexstudios\foxtrot\ConfigHandler.java|1906|1912|System|class|java.lang.System
+      @|com\linexstudios\foxtrot\ConfigHandler.java|1913|1916|err|field|java.lang.System|err
+      @|com\linexstudios\foxtrot\ConfigHandler.java|1917|1924|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\linexstudios\foxtrot\ConfigHandler.java|1976|1991|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: loadConfig()V
+   Method Start: saveConfig()V
+      @|com\linexstudios\foxtrot\ConfigHandler.java|2035|2045|saveConfig|method|com.linexstudios.foxtrot.ConfigHandler|saveConfig|()V
+      @|com\linexstudios\foxtrot\ConfigHandler.java|2113|2124|PrintWriter|class|java.io.PrintWriter
+      @|com\linexstudios\foxtrot\ConfigHandler.java|2138|2149|PrintWriter|class|java.io.PrintWriter
+      @|com\linexstudios\foxtrot\ConfigHandler.java|2154|2164|FileWriter|class|java.io.FileWriter
+      @|com\linexstudios\foxtrot\ConfigHandler.java|2165|2175|configFile|field|com.linexstudios.foxtrot.ConfigHandler|configFile
+      @|com\linexstudios\foxtrot\ConfigHandler.java|2196|2202|String|class|java.lang.String
+      @|com\linexstudios\foxtrot\ConfigHandler.java|2210|2218|EnemyHUD|class|com.linexstudios.foxtrot.EnemyHUD
+      @|com\linexstudios\foxtrot\ConfigHandler.java|2219|2229|targetList|field|com.linexstudios.foxtrot.EnemyHUD|targetList
+      @|com\linexstudios\foxtrot\ConfigHandler.java|2256|2263|println|method|java.io.PrintWriter|println|(Ljava/lang/String;)V
+      @|com\linexstudios\foxtrot\ConfigHandler.java|2304|2309|close|method|java.lang.AutoCloseable|close|()V
+      @|com\linexstudios\foxtrot\ConfigHandler.java|2365|2376|PrintWriter|class|java.io.PrintWriter
+      @|com\linexstudios\foxtrot\ConfigHandler.java|2398|2409|PrintWriter|class|java.io.PrintWriter
+      @|com\linexstudios\foxtrot\ConfigHandler.java|2414|2424|FileWriter|class|java.io.FileWriter
+      @|com\linexstudios\foxtrot\ConfigHandler.java|2425|2437|settingsFile|field|com.linexstudios.foxtrot.ConfigHandler|settingsFile
+      @|com\linexstudios\foxtrot\ConfigHandler.java|2532|2539|println|method|java.io.PrintWriter|println|(Z)V
+      @|com\linexstudios\foxtrot\ConfigHandler.java|2540|2548|EnemyHUD|class|com.linexstudios.foxtrot.EnemyHUD
+      @|com\linexstudios\foxtrot\ConfigHandler.java|2549|2569|notificationsEnabled|field|com.linexstudios.foxtrot.EnemyHUD|notificationsEnabled
+      @|com\linexstudios\foxtrot\ConfigHandler.java|2599|2606|println|method|java.io.PrintWriter|println|(Z)V
+      @|com\linexstudios\foxtrot\ConfigHandler.java|2607|2615|EnemyHUD|class|com.linexstudios.foxtrot.EnemyHUD
+      @|com\linexstudios\foxtrot\ConfigHandler.java|2616|2623|enabled|field|com.linexstudios.foxtrot.EnemyHUD|enabled
+      @|com\linexstudios\foxtrot\ConfigHandler.java|2653|2658|close|method|java.lang.AutoCloseable|close|()V
+      @|com\linexstudios\foxtrot\ConfigHandler.java|2692|2701|Exception|class|java.lang.Exception
+      @|com\linexstudios\foxtrot\ConfigHandler.java|2719|2725|System|class|java.lang.System
+      @|com\linexstudios\foxtrot\ConfigHandler.java|2726|2729|err|field|java.lang.System|err
+      @|com\linexstudios\foxtrot\ConfigHandler.java|2730|2737|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\linexstudios\foxtrot\ConfigHandler.java|2789|2804|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: saveConfig()V
+Class End  : com.linexstudios.foxtrot.ConfigHandler
+endProcessing com\linexstudios\foxtrot\ConfigHandler.java
+
+processing com\linexstudios\foxtrot\EnemyHUD.java
+@|com\linexstudios\foxtrot\EnemyHUD.java|8|32|com.linexstudios.foxtrot|package|com.linexstudios.foxtrot|(file)
+Class Start: com.linexstudios.foxtrot.EnemyHUD
+   @|com\linexstudios\foxtrot\EnemyHUD.java|566|575|Minecraft|class|net.minecraft.client.Minecraft
+   @|com\linexstudios\foxtrot\EnemyHUD.java|576|578|mc|field|com.linexstudios.foxtrot.EnemyHUD|mc|
+   @|com\linexstudios\foxtrot\EnemyHUD.java|581|590|Minecraft|class|net.minecraft.client.Minecraft
+   @|com\linexstudios\foxtrot\EnemyHUD.java|591|603|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+   @|com\linexstudios\foxtrot\EnemyHUD.java|630|636|String|class|java.lang.String
+   @|com\linexstudios\foxtrot\EnemyHUD.java|625|629|List|class|java.util.List
+   @|com\linexstudios\foxtrot\EnemyHUD.java|638|648|targetList|field|com.linexstudios.foxtrot.EnemyHUD|targetList|
+   @|com\linexstudios\foxtrot\EnemyHUD.java|655|664|ArrayList|class|java.util.ArrayList
+   @|com\linexstudios\foxtrot\EnemyHUD.java|665|671|String|class|java.lang.String
+   @|com\linexstudios\foxtrot\EnemyHUD.java|698|704|String|class|java.lang.String
+   @|com\linexstudios\foxtrot\EnemyHUD.java|694|697|Set|class|java.util.Set
+   @|com\linexstudios\foxtrot\EnemyHUD.java|706|720|playersInLobby|field|com.linexstudios.foxtrot.EnemyHUD|playersInLobby|
+   @|com\linexstudios\foxtrot\EnemyHUD.java|727|734|HashSet|class|java.util.HashSet
+   @|com\linexstudios\foxtrot\EnemyHUD.java|766|773|enabled|field|com.linexstudios.foxtrot.EnemyHUD|enabled|
+   @|com\linexstudios\foxtrot\EnemyHUD.java|808|828|notificationsEnabled|field|com.linexstudios.foxtrot.EnemyHUD|notificationsEnabled|
+   Method Start: onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V
+      @|com\linexstudios\foxtrot\EnemyHUD.java|874|880|onTick|method|com.linexstudios.foxtrot.EnemyHUD|onTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V
+      @|com\linexstudios\foxtrot\EnemyHUD.java|881|906|TickEvent.ClientTickEvent|class|net.minecraftforge.fml.common.gameevent.TickEvent.ClientTickEvent
+      @|com\linexstudios\foxtrot\EnemyHUD.java|907|912|event|param|com.linexstudios.foxtrot.EnemyHUD|onTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V|event|0
+      @|com\linexstudios\foxtrot\EnemyHUD.java|928|930|mc|field|com.linexstudios.foxtrot.EnemyHUD|mc
+      @|com\linexstudios\foxtrot\EnemyHUD.java|931|939|theWorld|field|net.minecraft.client.Minecraft|theWorld
+      @|com\linexstudios\foxtrot\EnemyHUD.java|951|956|event|param|com.linexstudios.foxtrot.EnemyHUD|onTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V|event|0
+      @|com\linexstudios\foxtrot\EnemyHUD.java|957|962|phase|field|net.minecraftforge.fml.common.gameevent.TickEvent|phase
+      @|com\linexstudios\foxtrot\EnemyHUD.java|966|981|TickEvent.Phase|class|net.minecraftforge.fml.common.gameevent.TickEvent.Phase
+      @|com\linexstudios\foxtrot\EnemyHUD.java|982|985|END|field|net.minecraftforge.fml.common.gameevent.TickEvent.Phase|END
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1008|1010|mc|field|com.linexstudios.foxtrot.EnemyHUD|mc
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1011|1020|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1021|1033|ticksExisted|field|net.minecraft.entity.Entity|ticksExisted
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1059|1069|Collection|class|java.util.Collection
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1070|1087|NetworkPlayerInfo|class|net.minecraft.client.network.NetworkPlayerInfo
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1099|1101|mc|field|com.linexstudios.foxtrot.EnemyHUD|mc
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1102|1115|getNetHandler|method|net.minecraft.client.Minecraft|getNetHandler|()Lnet/minecraft/client/network/NetHandlerPlayClient;
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1118|1134|getPlayerInfoMap|method|net.minecraft.client.network.NetHandlerPlayClient|getPlayerInfoMap|()Ljava/util/Collection;
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1150|1153|Set|class|java.util.Set
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1154|1160|String|class|java.lang.String
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1181|1188|HashSet|class|java.util.HashSet
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1212|1229|NetworkPlayerInfo|class|net.minecraft.client.network.NetworkPlayerInfo
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1264|1270|String|class|java.lang.String
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1283|1297|getGameProfile|method|net.minecraft.client.network.NetworkPlayerInfo|getGameProfile|()Lcom/mojang/authlib/GameProfile;
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1300|1307|getName|method|com.mojang.authlib.GameProfile|getName|()Ljava/lang/String;
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1340|1343|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1372|1382|targetList|field|com.linexstudios.foxtrot.EnemyHUD|targetList
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1383|1389|stream|method|java.util.Collection|stream|()Ljava/util/stream/Stream;
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1392|1400|anyMatch|method|java.util.stream.Stream|anyMatch|(Ljava/util/function/Predicate;)Z
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1453|1467|playersInLobby|field|com.linexstudios.foxtrot.EnemyHUD|playersInLobby
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1468|1476|contains|method|java.util.Collection|contains|(Ljava/lang/Object;)Z
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1514|1534|notificationsEnabled|field|com.linexstudios.foxtrot.EnemyHUD|notificationsEnabled
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1566|1568|mc|field|com.linexstudios.foxtrot.EnemyHUD|mc
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1569|1578|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1579|1593|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1598|1615|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1649|1667|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1668|1677|DARK_GRAY|field|net.minecraft.util.EnumChatFormatting|DARK_GRAY
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1686|1704|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1705|1710|WHITE|field|net.minecraft.util.EnumChatFormatting|WHITE
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1725|1743|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1744|1753|DARK_GRAY|field|net.minecraft.util.EnumChatFormatting|DARK_GRAY
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1795|1813|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1814|1817|RED|field|net.minecraft.util.EnumChatFormatting|RED
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1820|1838|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1839|1843|BOLD|field|net.minecraft.util.EnumChatFormatting|BOLD
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1891|1907|getFormattedName|method|com.linexstudios.foxtrot.EnemyHUD|getFormattedName|(Ljava/lang/String;)Ljava/lang/String;
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1916|1934|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\EnemyHUD.java|1935|1941|YELLOW|field|net.minecraft.util.EnumChatFormatting|YELLOW
+      @|com\linexstudios\foxtrot\EnemyHUD.java|2095|2109|playersInLobby|field|com.linexstudios.foxtrot.EnemyHUD|playersInLobby
+   Method End: onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V
+   Method Start: onRender(Lnet/minecraftforge/client/event/RenderGameOverlayEvent$Post;)V
+      @|com\linexstudios\foxtrot\EnemyHUD.java|2179|2187|onRender|method|com.linexstudios.foxtrot.EnemyHUD|onRender|(Lnet/minecraftforge/client/event/RenderGameOverlayEvent$Post;)V
+      @|com\linexstudios\foxtrot\EnemyHUD.java|2188|2215|RenderGameOverlayEvent.Post|class|net.minecraftforge.client.event.RenderGameOverlayEvent.Post
+      @|com\linexstudios\foxtrot\EnemyHUD.java|2216|2221|event|param|com.linexstudios.foxtrot.EnemyHUD|onRender|(Lnet/minecraftforge/client/event/RenderGameOverlayEvent$Post;)V|event|0
+      @|com\linexstudios\foxtrot\EnemyHUD.java|2237|2242|event|param|com.linexstudios.foxtrot.EnemyHUD|onRender|(Lnet/minecraftforge/client/event/RenderGameOverlayEvent$Post;)V|event|0
+      @|com\linexstudios\foxtrot\EnemyHUD.java|2243|2247|type|field|net.minecraftforge.client.event.RenderGameOverlayEvent|type
+      @|com\linexstudios\foxtrot\EnemyHUD.java|2251|2285|RenderGameOverlayEvent.ElementType|class|net.minecraftforge.client.event.RenderGameOverlayEvent.ElementType
+      @|com\linexstudios\foxtrot\EnemyHUD.java|2286|2290|TEXT|field|net.minecraftforge.client.event.RenderGameOverlayEvent.ElementType|TEXT
+      @|com\linexstudios\foxtrot\EnemyHUD.java|2295|2302|enabled|field|com.linexstudios.foxtrot.EnemyHUD|enabled
+      @|com\linexstudios\foxtrot\EnemyHUD.java|2321|2333|FontRenderer|class|net.minecraft.client.gui.FontRenderer
+      @|com\linexstudios\foxtrot\EnemyHUD.java|2339|2341|mc|field|com.linexstudios.foxtrot.EnemyHUD|mc
+      @|com\linexstudios\foxtrot\EnemyHUD.java|2342|2357|fontRendererObj|field|net.minecraft.client.Minecraft|fontRendererObj
+      @|com\linexstudios\foxtrot\EnemyHUD.java|2471|2483|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\linexstudios\foxtrot\EnemyHUD.java|2493|2495|mc|field|com.linexstudios.foxtrot.EnemyHUD|mc
+      @|com\linexstudios\foxtrot\EnemyHUD.java|2496|2504|theWorld|field|net.minecraft.client.Minecraft|theWorld
+      @|com\linexstudios\foxtrot\EnemyHUD.java|2505|2519|playerEntities|field|net.minecraft.world.World|playerEntities
+      @|com\linexstudios\foxtrot\EnemyHUD.java|2539|2549|targetList|field|com.linexstudios.foxtrot.EnemyHUD|targetList
+      @|com\linexstudios\foxtrot\EnemyHUD.java|2550|2556|stream|method|java.util.Collection|stream|()Ljava/util/stream/Stream;
+      @|com\linexstudios\foxtrot\EnemyHUD.java|2559|2567|anyMatch|method|java.util.stream.Stream|anyMatch|(Ljava/util/function/Predicate;)Z
+      @|com\linexstudios\foxtrot\EnemyHUD.java|2687|2707|drawStringWithShadow|method|net.minecraft.client.gui.FontRenderer|drawStringWithShadow|(Ljava/lang/String;FFI)I
+      @|com\linexstudios\foxtrot\EnemyHUD.java|2708|2726|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\EnemyHUD.java|2727|2730|RED|field|net.minecraft.util.EnumChatFormatting|RED
+      @|com\linexstudios\foxtrot\EnemyHUD.java|2731|2739|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      @|com\linexstudios\foxtrot\EnemyHUD.java|2744|2762|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\EnemyHUD.java|2763|2767|BOLD|field|net.minecraft.util.EnumChatFormatting|BOLD
+      @|com\linexstudios\foxtrot\EnemyHUD.java|2768|2776|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      @|com\linexstudios\foxtrot\EnemyHUD.java|2838|2849|FONT_HEIGHT|field|net.minecraft.client.gui.FontRenderer|FONT_HEIGHT
+      @|com\linexstudios\foxtrot\EnemyHUD.java|2990|2996|String|class|java.lang.String
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3015|3031|getFormattedName|method|com.linexstudios.foxtrot.EnemyHUD|getFormattedName|(Ljava/lang/String;)Ljava/lang/String;
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3039|3046|getName|method|net.minecraft.command.ICommandSender|getName|()Ljava/lang/String;
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3141|3161|drawStringWithShadow|method|net.minecraft.client.gui.FontRenderer|drawStringWithShadow|(Ljava/lang/String;FFI)I
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3162|3180|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3181|3185|BOLD|field|net.minecraft.util.EnumChatFormatting|BOLD
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3186|3194|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3257|3268|FONT_HEIGHT|field|net.minecraft.client.gui.FontRenderer|FONT_HEIGHT
+   Method End: onRender(Lnet/minecraftforge/client/event/RenderGameOverlayEvent$Post;)V
+   Method Start: getFormattedName(Ljava/lang/String;)Ljava/lang/String;
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3326|3342|getFormattedName|method|com.linexstudios.foxtrot.EnemyHUD|getFormattedName|(Ljava/lang/String;)Ljava/lang/String;
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3319|3325|String|class|java.lang.String
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3343|3349|String|class|java.lang.String
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3350|3354|name|param|com.linexstudios.foxtrot.EnemyHUD|getFormattedName|(Ljava/lang/String;)Ljava/lang/String;|name|0
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3434|3443|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3444|3456|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3459|3472|getNetHandler|method|net.minecraft.client.Minecraft|getNetHandler|()Lnet/minecraft/client/network/NetHandlerPlayClient;
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3503|3520|NetworkPlayerInfo|class|net.minecraft.client.network.NetworkPlayerInfo
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3528|3537|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3538|3550|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3553|3566|getNetHandler|method|net.minecraft.client.Minecraft|getNetHandler|()Lnet/minecraft/client/network/NetHandlerPlayClient;
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3569|3585|getPlayerInfoMap|method|net.minecraft.client.network.NetHandlerPlayClient|getPlayerInfoMap|()Ljava/util/Collection;
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3616|3630|getGameProfile|method|net.minecraft.client.network.NetworkPlayerInfo|getGameProfile|()Lcom/mojang/authlib/GameProfile;
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3633|3640|getName|method|com.mojang.authlib.GameProfile|getName|()Ljava/lang/String;
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3643|3659|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3660|3664|name|param|com.linexstudios.foxtrot.EnemyHUD|getFormattedName|(Ljava/lang/String;)Ljava/lang/String;|name|0
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3698|3712|getDisplayName|method|net.minecraft.client.network.NetworkPlayerInfo|getDisplayName|()Lnet/minecraft/util/IChatComponent;
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3762|3776|getDisplayName|method|net.minecraft.client.network.NetworkPlayerInfo|getDisplayName|()Lnet/minecraft/util/IChatComponent;
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3779|3795|getFormattedText|method|net.minecraft.util.IChatComponent|getFormattedText|()Ljava/lang/String;
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3945|3957|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3967|3976|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3977|3989|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\linexstudios\foxtrot\EnemyHUD.java|3992|4000|theWorld|field|net.minecraft.client.Minecraft|theWorld
+      @|com\linexstudios\foxtrot\EnemyHUD.java|4001|4022|getPlayerEntityByName|method|net.minecraft.world.World|getPlayerEntityByName|(Ljava/lang/String;)Lnet/minecraft/entity/player/EntityPlayer;
+      @|com\linexstudios\foxtrot\EnemyHUD.java|4023|4027|name|param|com.linexstudios.foxtrot.EnemyHUD|getFormattedName|(Ljava/lang/String;)Ljava/lang/String;|name|0
+      @|com\linexstudios\foxtrot\EnemyHUD.java|4086|4100|getDisplayName|method|net.minecraft.command.ICommandSender|getDisplayName|()Lnet/minecraft/util/IChatComponent;
+      @|com\linexstudios\foxtrot\EnemyHUD.java|4103|4119|getFormattedText|method|net.minecraft.util.IChatComponent|getFormattedText|()Ljava/lang/String;
+      @|com\linexstudios\foxtrot\EnemyHUD.java|4149|4167|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\linexstudios\foxtrot\EnemyHUD.java|4168|4172|GRAY|field|net.minecraft.util.EnumChatFormatting|GRAY
+      @|com\linexstudios\foxtrot\EnemyHUD.java|4175|4179|name|param|com.linexstudios.foxtrot.EnemyHUD|getFormattedName|(Ljava/lang/String;)Ljava/lang/String;|name|0
+   Method End: getFormattedName(Ljava/lang/String;)Ljava/lang/String;
+Class End  : com.linexstudios.foxtrot.EnemyHUD
+endProcessing com\linexstudios\foxtrot\EnemyHUD.java
+
+processing com\linexstudios\foxtrot\Foxtrot.java
+@|com\linexstudios\foxtrot\Foxtrot.java|8|32|com.linexstudios.foxtrot|package|com.linexstudios.foxtrot|(file)
+Class Start: com.linexstudios.foxtrot.Foxtrot
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\linexstudios\foxtrot\Foxtrot.java|413|417|init|method|com.linexstudios.foxtrot.Foxtrot|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\linexstudios\foxtrot\Foxtrot.java|418|440|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\linexstudios\foxtrot\Foxtrot.java|441|446|event|param|com.linexstudios.foxtrot.Foxtrot|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\linexstudios\foxtrot\Foxtrot.java|542|555|ConfigHandler|class|com.linexstudios.foxtrot.ConfigHandler
+      @|com\linexstudios\foxtrot\Foxtrot.java|556|566|loadConfig|method|com.linexstudios.foxtrot.ConfigHandler|loadConfig|()V
+      @|com\linexstudios\foxtrot\Foxtrot.java|671|685|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|com\linexstudios\foxtrot\Foxtrot.java|686|695|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|com\linexstudios\foxtrot\Foxtrot.java|696|704|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|com\linexstudios\foxtrot\Foxtrot.java|709|717|EnemyHUD|class|com.linexstudios.foxtrot.EnemyHUD
+      @|com\linexstudios\foxtrot\Foxtrot.java|809|829|ClientCommandHandler|class|net.minecraftforge.client.ClientCommandHandler
+      @|com\linexstudios\foxtrot\Foxtrot.java|830|838|instance|field|net.minecraftforge.client.ClientCommandHandler|instance
+      @|com\linexstudios\foxtrot\Foxtrot.java|839|854|registerCommand|method|net.minecraft.command.CommandHandler|registerCommand|(Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;
+      @|com\linexstudios\foxtrot\Foxtrot.java|859|873|CommandFoxtrot|class|com.linexstudios.foxtrot.CommandFoxtrot
+      @|com\linexstudios\foxtrot\Foxtrot.java|967|973|System|class|java.lang.System
+      @|com\linexstudios\foxtrot\Foxtrot.java|974|977|out|field|java.lang.System|out
+      @|com\linexstudios\foxtrot\Foxtrot.java|978|985|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+Class End  : com.linexstudios.foxtrot.Foxtrot
+endProcessing com\linexstudios\foxtrot\Foxtrot.java
+
